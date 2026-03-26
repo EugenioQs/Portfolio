@@ -1,152 +1,422 @@
 <!DOCTYPE HTML>
-<!--
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Eugenio Quintero</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+    <!-- Primary SEO -->
+    <title>Eugenio Quintero — Data Analyst | SQL · Python · Tableau · Power BI</title>
+    <meta name="description" content="Data Analyst based in Villahermosa, México. Specialized in SQL, Python, Tableau, and Power BI. Transforming raw data into actionable business insights." />
+    <meta name="author" content="Eugenio Quintero" />
+    <meta name="keywords" content="Data Analyst, SQL, Python, Tableau, Power BI, Excel, MySQL, Data Cleaning, EDA, Business Intelligence, Eugenio Quintero" />
 
-				<!-- Intro -->
-					<div id="intro">
-						<h1>Eugenio Quintero<br />
-						Portfolio</h1>
-						<p>Skilled Data Analyst with expertise in SQL, PowerBI, Tableau, and Python.<br />
-						<a href="https://www.linkedin.com/in/eugenioqs/">Eugenio Quintero</a>.</p>
-						<ul class="actions">
-							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
-					</div>
+    <!-- Open Graph (LinkedIn, Facebook previews) -->
+    <meta property="og:type"        content="website" />
+    <meta property="og:url"         content="https://eugenioqs.github.io/Portfolio/" />
+    <meta property="og:title"       content="Eugenio Quintero — Data Analyst" />
+    <meta property="og:description" content="Data Analyst specialized in SQL, Python, Tableau, and Power BI. Check out my projects and get in touch." />
+    <meta property="og:image"       content="https://eugenioqs.github.io/Portfolio/images/Eugenio_Quintero.png" />
 
-				<!-- Header -->
-					<header id="header">
-						
-					</header>
+    <!-- Twitter card -->
+    <meta name="twitter:card"        content="summary_large_image" />
+    <meta name="twitter:title"       content="Eugenio Quintero — Data Analyst" />
+    <meta name="twitter:description" content="Data Analyst specialized in SQL, Python, Tableau, and Power BI." />
+    <meta name="twitter:image"       content="https://eugenioqs.github.io/Portfolio/images/Eugenio_Quintero.png" />
 
-				<!-- Nav -->
-					<nav id="nav">
-						<ul class="links">
-							<li class="active"><a href="index.html">Projects</a></li>
-						</ul>
-						<ul class="icons">
-							<li><a href="https://www.linkedin.com/in/eugenioqs/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-							<li><a href="https://github.com/EugenioQs" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-						</ul>
-					</nav>
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg" />
 
-				<!-- Main -->
-					<div id="main">
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/portfolio.css" />
+</head>
+<body>
 
-						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">EQ<span class="accent">.</span></a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
 
-									<h2><a href="https://github.com/EugenioQs/MySQL-Data-Cleaning/blob/main/MySQL-Data-Cleaning.sql">Data Cleaning<br />
-									in SQL</a></h2>
-									<p>Using SQL Server, this project transforms raw housing data to improve its usability for analysis.</p>
-								</header>
-								<a href="https://github.com/EugenioQs/MySQL-Data-Cleaning/blob/main/MySQL-Data-Cleaning.sql" class="image main"><img src="images/Data Cleaning.png" alt="" /></a>
-								<ul class="actions special">
-									<li><a href="https://github.com/EugenioQs/MySQL-Data-Cleaning/blob/main/MySQL-Data-Cleaning.sql" class="button large">View Project</a></li>
-								</ul>
-							</article>
+    <!-- Hero -->
+    <section id="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <p class="hero-greeting">Hi there, I'm</p>
+            <h1 class="hero-name">Eugenio Quintero</h1>
+            <div class="hero-role">
+                <span class="typed-prefix">I work with </span>
+                <span id="typedText" class="typed-text"></span><span class="typed-cursor">|</span>
+            </div>
+            <p class="hero-tagline">Turning raw data into meaningful insights through SQL, Python, and BI tools.</p>
+            <div class="hero-cta">
+                <a href="#projects" class="btn btn-primary">View Projects</a>
+                <a href="#contact" class="btn btn-outline">Contact Me</a>
+            </div>
+            <div class="hero-socials">
+                <a href="https://www.linkedin.com/in/eugenioqs/" target="_blank" rel="noopener" title="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com/EugenioQs" target="_blank" rel="noopener" title="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="mailto:qeugenios@gmail.com" title="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+        <a href="#about" class="scroll-down" aria-label="Scroll down">
+            <i class="fas fa-chevron-down"></i>
+        </a>
+    </section>
 
-						<!-- Posts -->
-							<section class="posts">
-								<article>
-									<header>
-										<h2><a href="https://github.com/EugenioQs/MySQL-Data-Exploration/blob/main/MySQL-Data-Exploration.sql">MySQL - EDA on Layoffs Dataset</a></h2>
-									</header>
-									<a href="https://github.com/EugenioQs/MySQL-Data-Exploration/blob/main/MySQL-Data-Exploration.sql" class="image fit"><img src="images/MySQL.png" alt="" /></a>
-									<p>Performed exploratory data analysis to identify layoff trends, totals, and rankings by company, year, and funding stage.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/EugenioQs/MySQL-Data-Exploration/blob/main/MySQL-Data-Exploration.sql" class="button">View Project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<h2><a href="https://public.tableau.com/app/profile/eugenio.quintero/viz/AirBnBFullProject_17411751620820/Dashboard1?publish=yes">Tableau dashboards</a></h2>
-									</header>
-									<a href="https://public.tableau.com/app/profile/eugenio.quintero/viz/AirBnBFullProject_17411751620820/Dashboard1?publish=yes" class="image fit"><img src="images/Tableau-Logo.png" alt="" /></a>
-									<p>We utilize Tableau dashboards across projects focused on AirBnb and their metrics.</p>
-									<ul class="actions special">
-										<li><a href="https://public.tableau.com/app/profile/eugenio.quintero/viz/AirBnBFullProject_17411751620820/Dashboard1?publish=yes" class="button">View Project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<h2><a href="https://github.com/EugenioQs/Excel_Analytics_BikeData/blob/main/Excel%20Project%20Dataset.xlsx">Full Excel Project - Bike Data</a></h2>
-									</header>
-									<a href="https://github.com/EugenioQs/Excel_Analytics_BikeData/blob/main/Excel%20Project%20Dataset.xlsx" class="image fit"><img src="images/Excel.png" alt="" /></a>
-									<p>Business Intelligence project in Excel: data cleaning, transformation, and an interactive dashboard with pivot tables to analyze bike buyers' behavior.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/EugenioQs/Excel_Analytics_BikeData/blob/main/Excel%20Project%20Dataset.xlsx" class="button">View Project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<h2><a href="https://github.com/EugenioQs/Scraping-with-Python/blob/main/Scraping%20with%20Python.ipynb">Web Scraper with Python</a></h2>
-									</header>
-									<a href="https://github.com/EugenioQs/Scraping-with-Python/blob/main/Scraping%20with%20Python.ipynb" class="image fit"><img src="images/python.jpg" alt="" /></a>
-									<p>This project involves scraping data from a Real Web Page in order to examine product price trends.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/EugenioQs/Scraping-with-Python/blob/main/Scraping%20with%20Python.ipynb" class="button">View Project</a></li>
-									</ul>
-								</article>
-								<!-- Aqui van los otros proyectos-->
+    <!-- About -->
+    <section id="about">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">Get to know me</span>
+                <h2>About Me</h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-photo reveal">
+                    <div class="photo-frame">
+                        <img src="images/Eugenio_Quintero.png" alt="Eugenio Quintero" />
+                    </div>
+                </div>
+                <div class="about-content reveal">
+                    <h3>Data Analyst based in Villahermosa, México</h3>
+                    <p>
+                        I'm a Data Analyst who genuinely enjoys making sense of messy data. I set clear goals,
+                        stay focused until they're done, and take pride in delivering work that actually moves
+                        the needle. My toolkit — SQL, Python, Tableau, and Power BI — is how I turn raw numbers
+                        into insights people can act on.
+                    </p>
+                    <p>
+                        I'm a people person at heart. I believe the best analytical work happens in teams where
+                        everyone communicates openly and honestly. I tend to be direct — not because I'm blunt,
+                        but because I think clarity saves time and builds trust. If something can be said plainly,
+                        I'll say it plainly.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-card">
+                            <span class="stat-number">5<span class="accent">+</span></span>
+                            <span class="stat-label">Projects</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">5<span class="accent">+</span></span>
+                            <span class="stat-label">Tools</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">100<span class="accent">%</span></span>
+                            <span class="stat-label">Committed</span>
+                        </div>
+                    </div>
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <i class="fas fa-map-marker-alt accent"></i>
+                            <span>Villahermosa, Tabasco, México</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-envelope accent"></i>
+                            <a href="mailto:qeugenios@gmail.com">qeugenios@gmail.com</a>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fab fa-whatsapp accent"></i>
+                            <a href="https://wa.me/529933434895" target="_blank" rel="noopener">(993) 343-4895</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-					</div>
+    <!-- Skills -->
+    <section id="skills">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">What I work with</span>
+                <h2>Skills &amp; Tools</h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category reveal">
+                    <div class="skill-category-icon"><i class="fas fa-database"></i></div>
+                    <h3>Databases &amp; SQL</h3>
+                    <ul>
+                        <li><span class="skill-chip">MySQL</span></li>
+                        <li><span class="skill-chip">SQL Server</span></li>
+                        <li><span class="skill-chip">Data Cleaning</span></li>
+                        <li><span class="skill-chip">EDA</span></li>
+                    </ul>
+                </div>
+                <div class="skill-category reveal">
+                    <div class="skill-category-icon"><i class="fas fa-chart-bar"></i></div>
+                    <h3>Business Intelligence</h3>
+                    <ul>
+                        <li><span class="skill-chip">Tableau</span></li>
+                        <li><span class="skill-chip">Power BI</span></li>
+                        <li><span class="skill-chip">Excel</span></li>
+                        <li><span class="skill-chip">Pivot Tables</span></li>
+                    </ul>
+                </div>
+                <div class="skill-category reveal">
+                    <div class="skill-category-icon"><i class="fas fa-code"></i></div>
+                    <h3>Programming</h3>
+                    <ul>
+                        <li><span class="skill-chip">Python</span></li>
+                        <li><span class="skill-chip">Pandas</span></li>
+                        <li><span class="skill-chip">BeautifulSoup</span></li>
+                        <li><span class="skill-chip">Jupyter</span></li>
+                    </ul>
+                </div>
+                <div class="skill-category reveal">
+                    <div class="skill-category-icon"><i class="fas fa-brain"></i></div>
+                    <h3>Analytics</h3>
+                    <ul>
+                        <li><span class="skill-chip">Data Wrangling</span></li>
+                        <li><span class="skill-chip">ETL Pipelines</span></li>
+                        <li><span class="skill-chip">Reporting</span></li>
+                        <li><span class="skill-chip">Web Scraping</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<section class="split contact">
-							<section class="alt">
-								<h3>Address</h3>
-								<p>Villahermosa, Tabasco, México</p>
-							</section>
-							<section>
-								<h3>WhatsApp</h3>
-								<p><a href="#">(993) 343-4895</a></p>
-							</section>
-							<section>
-								<h3>Email</h3>
-								<p><a href="#">qeugenios@gmail.com</a></p>
-							</section>
-							<section>
-								<h3>Social</h3>
-								<ul class="icons alt">
-									<li><a href="https://www.linkedin.com/in/eugenioqs/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-									<li><a href="https://github.com/EugenioQs" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								</ul>
-							</section>
-						</section>
-					</footer>
+    <!-- Certifications -->
+    <section id="certifications">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">Credentials</span>
+                <h2>Certifications</h2>
+            </div>
+            <div class="certs-grid">
+                <div class="cert-card reveal">
+                    <div class="cert-logo">
+                        <i class="fab fa-google"></i>
+                    </div>
+                    <div class="cert-info">
+                        <span class="cert-issuer">Google</span>
+                        <h3>Google Data Analytics Certificate</h3>
+                        <p>Covers the entire data analysis process: ask, prepare, process, analyze, share, and act — using spreadsheets, SQL, Tableau, and R.</p>
+                    </div>
+                </div>
+                <div class="cert-card reveal">
+                    <div class="cert-logo microsoft">
+                        <i class="fab fa-microsoft"></i>
+                    </div>
+                    <div class="cert-info">
+                        <span class="cert-issuer">Microsoft</span>
+                        <h3>Microsoft Data Analytics Certificate</h3>
+                        <p>Foundations of data analytics with Microsoft tools, covering data modeling, visualization, and business intelligence with Power BI.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-				<!-- Copyright -->
-					<div id="copyright">
-						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
-					</div>
+    <!-- Projects -->
+    <section id="projects">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">My work</span>
+                <h2>Projects</h2>
+            </div>
+            <div class="projects-grid">
 
-			</div>
+                <!-- Featured -->
+                <article class="project-card featured reveal">
+                    <div class="project-image">
+                        <img src="images/powerbi.png" alt="Power BI Salary & Job Satisfaction Dashboard" />
+                        <div class="project-overlay">
+                            <a href="https://github.com/EugenioQs/Full-Project-PowerBI" target="_blank" rel="noopener" class="overlay-link">
+                                <i class="fab fa-github"></i> View on GitHub
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="tag powerbi">Power BI</span>
+                            <span class="tag bi">BI</span>
+                            <span class="tag featured-tag">Featured</span>
+                        </div>
+                        <h3>Power BI — Salary &amp; Job Satisfaction</h3>
+                        <p>Interactive Power BI dashboard analyzing salary distributions and job satisfaction levels across roles and industries, built to surface trends that help guide career decisions.</p>
+                        <a href="https://github.com/EugenioQs/Full-Project-PowerBI" target="_blank" rel="noopener" class="project-link">
+                            View Project <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </article>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+                <article class="project-card reveal">
+                    <div class="project-image">
+                        <img src="images/Data Cleaning.png" alt="Data Cleaning in SQL" />
+                        <div class="project-overlay">
+                            <a href="https://github.com/EugenioQs/MySQL-Data-Cleaning/blob/main/MySQL-Data-Cleaning.sql"
+                               target="_blank" rel="noopener" class="overlay-link">
+                                <i class="fab fa-github"></i> View on GitHub
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="tag sql">SQL</span>
+                            <span class="tag mysql">MySQL</span>
+                        </div>
+                        <h3>Data Cleaning in SQL</h3>
+                        <p>Using SQL Server, this project transforms raw Nashville housing data — standardizing formats, removing duplicates, and restructuring the dataset to improve its usability for downstream analysis.</p>
+                        <a href="https://github.com/EugenioQs/MySQL-Data-Cleaning/blob/main/MySQL-Data-Cleaning.sql"
+                           target="_blank" rel="noopener" class="project-link">
+                            View Project <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </article>
 
-	</body>
+                <article class="project-card reveal">
+                    <div class="project-image">
+                        <img src="images/MySQL.png" alt="MySQL EDA on Layoffs" />
+                        <div class="project-overlay">
+                            <a href="https://github.com/EugenioQs/MySQL-Data-Exploration/blob/main/MySQL-Data-Exploration.sql"
+                               target="_blank" rel="noopener" class="overlay-link">
+                                <i class="fab fa-github"></i> View on GitHub
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="tag sql">SQL</span>
+                            <span class="tag mysql">MySQL</span>
+                        </div>
+                        <h3>EDA on Layoffs Dataset</h3>
+                        <p>Exploratory data analysis to identify layoff trends, totals, and rankings by company, year, and funding stage using MySQL.</p>
+                        <a href="https://github.com/EugenioQs/MySQL-Data-Exploration/blob/main/MySQL-Data-Exploration.sql"
+                           target="_blank" rel="noopener" class="project-link">
+                            View Project <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="project-card reveal">
+                    <div class="project-image">
+                        <img src="images/Tableau-Logo.png" alt="Tableau AirBnB Dashboard" />
+                        <div class="project-overlay">
+                            <a href="https://public.tableau.com/app/profile/eugenio.quintero/viz/AirBnBFullProject_17411751620820/Dashboard1?publish=yes"
+                               target="_blank" rel="noopener" class="overlay-link">
+                                <i class="fas fa-external-link-alt"></i> View Dashboard
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="tag tableau">Tableau</span>
+                            <span class="tag bi">BI</span>
+                        </div>
+                        <h3>Tableau Dashboards — AirBnB</h3>
+                        <p>Interactive dashboards analyzing AirBnB metrics, pricing trends, and market performance across key dimensions.</p>
+                        <a href="https://public.tableau.com/app/profile/eugenio.quintero/viz/AirBnBFullProject_17411751620820/Dashboard1?publish=yes"
+                           target="_blank" rel="noopener" class="project-link">
+                            View Project <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="project-card reveal">
+                    <div class="project-image">
+                        <img src="images/Excel.png" alt="Excel Bike Data" />
+                        <div class="project-overlay">
+                            <a href="https://github.com/EugenioQs/Excel_Analytics_BikeData/blob/main/Excel%20Project%20Dataset.xlsx"
+                               target="_blank" rel="noopener" class="overlay-link">
+                                <i class="fab fa-github"></i> View on GitHub
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="tag excel">Excel</span>
+                            <span class="tag bi">BI</span>
+                        </div>
+                        <h3>Excel Project — Bike Data</h3>
+                        <p>Business Intelligence project in Excel: data cleaning, transformation, and an interactive dashboard with pivot tables to analyze bike buyers' behavior.</p>
+                        <a href="https://github.com/EugenioQs/Excel_Analytics_BikeData/blob/main/Excel%20Project%20Dataset.xlsx"
+                           target="_blank" rel="noopener" class="project-link">
+                            View Project <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="project-card reveal">
+                    <div class="project-image">
+                        <img src="images/python.jpg" alt="Web Scraper with Python" />
+                        <div class="project-overlay">
+                            <a href="https://github.com/EugenioQs/Scraping-with-Python/blob/main/Scraping%20with%20Python.ipynb"
+                               target="_blank" rel="noopener" class="overlay-link">
+                                <i class="fab fa-github"></i> View on GitHub
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="tag python">Python</span>
+                            <span class="tag scraping">Scraping</span>
+                        </div>
+                        <h3>Web Scraper with Python</h3>
+                        <p>Automated scraper targeting a live e-commerce site to track product price trends over time using BeautifulSoup and Pandas.</p>
+                        <a href="https://github.com/EugenioQs/Scraping-with-Python/blob/main/Scraping%20with%20Python.ipynb"
+                           target="_blank" rel="noopener" class="project-link">
+                            View Project <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">Let's talk</span>
+                <h2>Get In Touch</h2>
+            </div>
+            <div class="contact-content reveal">
+                <p class="contact-intro">I'm currently open to new opportunities. Whether you have a question, a project in mind, or just want to connect — feel free to reach out.</p>
+                <a href="mailto:qeugenios@gmail.com" class="btn btn-primary btn-large">
+                    Say Hello <i class="fas fa-paper-plane"></i>
+                </a>
+                <div class="contact-links">
+                    <a href="https://www.linkedin.com/in/eugenioqs/" target="_blank" rel="noopener">
+                        <i class="fab fa-linkedin-in"></i> LinkedIn
+                    </a>
+                    <a href="https://github.com/EugenioQs" target="_blank" rel="noopener">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                    <a href="mailto:qeugenios@gmail.com">
+                        <i class="fas fa-envelope"></i> qeugenios@gmail.com
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>Designed &amp; built by Eugenio Quintero &mdash;
+               <a href="https://github.com/EugenioQs" target="_blank" rel="noopener">@EugenioQs</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="assets/js/portfolio.js"></script>
+</body>
 </html>
