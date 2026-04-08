@@ -712,6 +712,7 @@ ul { list-style: none; }
 .project-link i { font-size: 0.75rem; transition: transform var(--ease); }
 .project-link:hover { color: var(--accent); gap: 0.7rem; }
 .project-link:hover i { transform: translateX(2px); }
+.project-links-row { display: flex; gap: 1rem; flex-wrap: wrap; }
 
 /* ---- Certifications ---- */
 
