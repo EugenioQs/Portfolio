@@ -782,6 +782,16 @@ ul { list-style: none; }
     color: var(--text-secondary);
     line-height: 1.7;
 }
+.cert-verify {
+    display: inline-block;
+    margin-top: 8px;
+    font-size: 0.82rem;
+    font-weight: 500;
+    color: var(--accent);
+    text-decoration: none;
+    transition: opacity 0.2s;
+}
+.cert-verify:hover { opacity: 0.75; }
 
 /* ---- Contact ---- */
 

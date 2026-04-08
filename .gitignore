@@ -3,6 +3,10 @@ CLAUDE.md
 .claude/
 .atl/
 
+# CV files
+cv/
+Eugenio_Quintero_CV.html
+
 # OS
 .DS_Store
 Thumbs.db
