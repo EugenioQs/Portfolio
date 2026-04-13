@@ -8,19 +8,20 @@ Personal portfolio website showcasing my data analytics projects. Built with HTM
 
 | Project | Tools | Description |
 |---|---|---|
+| E-Commerce Fashion Sales Analysis | Python, MySQL, Power BI | End-to-end pipeline for a fashion retailer across 4 countries — data generation, cleaning, MySQL storage, and a Power BI executive dashboard |
+| Plato's Pizza — End-to-End Sales Analysis | Python, Power BI | Full data pipeline analyzing a year of pizza sales — cleaning, feature engineering, and an interactive multi-page Power BI dashboard |
 | Power BI — Salary & Job Satisfaction | Power BI | Dashboard analyzing salary distributions and job satisfaction across roles and industries |
 | Road Accidents — Federal Highways | Power BI | Dashboard analyzing 60,531 accident records on Brazil's federal highways (2018–2020) |
 | Data Cleaning in SQL | SQL, MySQL | Transforms raw Nashville housing data — standardizing formats, removing duplicates, restructuring for analysis |
 | EDA on Layoffs Dataset | SQL, MySQL | Exploratory analysis of layoff trends by company, year, and funding stage |
 | Tableau Dashboards — AirBnB | Tableau | Interactive dashboards on AirBnB pricing trends and market performance |
-| Excel Project — Bike Data | Excel | Data cleaning and interactive dashboard with pivot tables to analyze bike buyers' behavior |
-| Web Scraper with Python | Python, BeautifulSoup, Pandas | Automated scraper tracking product price trends from a live e-commerce site |
 
 ## Stack
 
-- **Languages:** SQL, Python, M (Power Query)
-- **BI Tools:** Power BI, Tableau, Excel
-- **Libraries:** Pandas, BeautifulSoup
+- **Languages:** SQL, Python
+- **Databases:** MySQL
+- **BI Tools:** Power BI, Tableau
+- **Libraries:** Pandas, SQLAlchemy
 - **Frontend:** HTML, CSS, JavaScript
 
 ## Contact
