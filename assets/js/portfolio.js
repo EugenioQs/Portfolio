@@ -37,7 +37,7 @@
     var words = [
         'SQL databases',
         'Python & pandas',
-        'Tableau dashboards',
+        'MySQL pipelines',
         'Power BI reports',
         'data storytelling'
     ];
