@@ -102,18 +102,14 @@
 
     function onScroll() {
         var scrollY = window.scrollY + 100;
+        var activeId = null;
         sections.forEach(function (section) {
-            var top    = section.offsetTop;
-            var height = section.offsetHeight;
-            var id     = section.getAttribute('id');
-            if (scrollY >= top && scrollY < top + height) {
-                navLinks.forEach(function (a) {
-                    a.style.color = '';
-                    if (a.getAttribute('href') === '#' + id) {
-                        a.style.color = 'var(--accent)';
-                    }
-                });
+            if (scrollY >= section.offsetTop && scrollY < section.offsetTop + section.offsetHeight) {
+                activeId = section.getAttribute('id');
             }
+        });
+        navLinks.forEach(function (a) {
+            a.classList.toggle('active', a.getAttribute('href') === '#' + activeId);
         });
     }
 
